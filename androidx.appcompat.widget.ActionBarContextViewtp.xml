@@ -1,6 +1,5 @@
 <servers>
 <server name="🇮🇩 MNET :📡 Tidak diketahui" ca="0" continent_code="MY" country="INDONESIA" country_code="ID" ip="164.132.3.62" port="47831" region="ID" url="http://http://malagafm2.wapath.com" token="null"/>
- <!--
 <server name=" 🇮🇩 ISNU :📡 Lombok Ntb " ca="0" continent_code="MY" country="NUSA TENGGARA BARAT" country_code="ID" ip="95.216.18.242" port="20456" region="ID" url="http://http://malagafm2.wapath.com" token=""/>
 <server name=" 🇮🇩 DRN :📡 Digital Radio Nasional" ca="0" continent_code="MY" country="ENREKANG" country_code="ID" ip="202.157.187.112" port="64738" region="ID" url="http://http://malagafm2.wapath.com" token=""/>
 <server name=" 🇮🇩 RKP :📡 Radio Kandang Pitik" ca="0" continent_code="MY" country="MALAYSIA" country_code="ID" ip="144.76.73.12" port="39891" region="ID" url="http://radio.nasional.online" token=""/>
