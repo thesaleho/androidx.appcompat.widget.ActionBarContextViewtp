@@ -1,59 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Membuat Halaman Web Dinamis Dengan PHP | www.malasngoding.com</title>
-	<!-- menghubungkan dengan file css -->
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<!-- menghubungkan dengan file jquery -->
-	<script type="text/javascript" src="jquery.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Biasa | Jago Ngoding</title>
 </head>
 <body>
-<!-- 
-Author : diki alfarabi hadi 
-Site : www.malasngoding.com up
--->
-<div class="content">
-	<header>
-		<h1 class="judul">WWW.MALASNGODING.COM</h1>
-		<h3 class="deskripsi">Membuat Halaman Web Dinamis Dengan PHP</h3>
-	</header>
+    <h1>Kalkulator Biasa</h1>
+    <form>
+        <input type="number" name="a" placeholder="Bilangan a">
 
-	<div class="menu">
-		<ul>
-			<li><a href="index.php?page=home">HOME</a></li>
-			<li><a href="index.php?page=tentang">TENTANG</a></li>
-			<li><a href="index.php?page=tutorial">TUTORIAL</a></li>
-		</ul>
-	</div>
+        <select name="operator">
+            <option selected disabled>Pilih Operator</option>
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+        </select>
 
-	<div class="badan">
+        <input type="number" name="b" placeholder="Bilangan b">
 
-
-	<?php 
-	if(isset($_GET['page'])){
-		$page = $_GET['page'];
-
-		switch ($page) {
-			case 'home':
-				include "halaman/home.php";
-				break;
-			case 'tentang':
-				include "halaman/tentang.php";
-				break;
-			case 'tutorial':
-				include "halaman/tutorial.php";
-				break;			
-			default:
-				echo "<center><h3>Maaf. Halaman tidak di temukan !</h3></center>";
-				break;
-		}
-	}else{
-		include "halaman/home.php";
-	}
-
-	 ?>
-
-	</div>
-</div>
+        <div style="margin-top: 1rem">
+            <button type="button" onclick="location.href = '?clear'">Clear</button>
+            <button type="submit">Hitung</button>
+        </div>
+    </form>
 </body>
-</html>
+</html> 
