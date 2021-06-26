@@ -20,5 +20,6 @@
 <server name=" 🇮🇩 𝗚𝗥𝗜𝗬𝗔 𝗜𝗩𝗔𝗡𝗔 :📡​" ca="0" continent_code="MY" country="Apk Plastor" country_code="ID" ip="164.132.3.62" port="46067" region="ID" url="http://radio.malagafm2.wapath.com" token=""/>
 <server name=" 🇮🇩 𝗙𝗠 𝗚𝗢  :📡" ca="0" continent_code="MY" country="BRIKER FM 90" country_code="ID" ip="95.216.18.242" port="20849" region="ID" url="http://radio.malagafm2.wapath.com" token=""/>
 <server name=" 🇮🇩 𝗪𝗕𝗔 :📡" ca="0" continent_code="MY" country="SURYA OKU" country_code="ID" ip="149.56.14.62" port="61100" region="ID" url="http://radio.malagafm2.wapath.com" token=""/>
-<server name=" 🇮🇩 RKB :📡" ca="0" continent_code="MY" country="RADIO KITA BERSAMA" country_code="ID" ip="164.132.3.62" port="51690" region="ID" url="http://radio.malagafm2.wapath.com" token=""/><server name=" 🇮🇩 𝗜𝗡𝗗𝗢 𝗦𝗣𝗦 :📡" ca="0" continent_code="MY" country="SUSI TRENGGALEK" country_code="ID" ip="164.132.3.62" port="51005" region="ID" url="http://radio.malagafm2.wapath.com" token=""/>
+<server name=" 🇮🇩 𝗜𝗡𝗗𝗢 𝗦𝗣𝗦 :📡" ca="0" continent_code="MY" country="SUSI TRENGGALEK" country_code="ID" ip="164.132.3.62" port="51690" region="ID" url="http://radio.malagafm2.wapath.com" token=""/>
+<server name=" 🇮🇩 RKB :📡" ca="0" continent_code="MY" country="RADIO KITA BERSAMA" country_code="ID" ip="164.132.3.62" port="51005" region="ID" url="http://radio.malagafm2.wapath.com" token=""/>
 </servers> 
